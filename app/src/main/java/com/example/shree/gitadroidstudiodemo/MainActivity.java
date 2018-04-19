@@ -2,6 +2,7 @@ package com.example.shree.gitadroidstudiodemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
      * Added by shree
      */
     private void initView() {
-
+        Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show();
     }
 }
