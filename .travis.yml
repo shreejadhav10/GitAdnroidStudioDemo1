@@ -36,7 +36,7 @@ deploy:
   provider: releases
   api_key:
     secure: W3bx7/+zkawaHW5ZHGZMpZvWRhxleI0+y2yUYTcwYWnIYZQD8Q9mNLX/uKiM4M2or2nrPvE9Jt9z8i2agx5X6Em5Xe3vZhRLCM/R1Q5wFtOSwQjp+6eTFAKG+IP1UxzN7QPz9bVuTzgU7el18XwcJvQcoQARDhmqolVOOTCpUHliid1QdXBCP0cbxlqbpUk1XO5O3ueXvmhqoQkyMg3tq5yxuroKNo7h024fiMO0I2TZDKTXCdUo2iq7zplynK+Svzcmk8Wq3LheCiqRwbwF0h3tYhytp1D1sSY8yJ4T9w4e40Nm4MIK8QkbPYz1d83Yb2E0LTnNyYtyqhMe8BzPkvILbi4hHSowmE78jTmIMeXow8UyqlD4FNAsK0WCK3B1WEp1uqAKp6J8nCftT1VruonMvaouM0Sr4fprzl90WapW3/tHV/WM9VMFvOVbIICoLuczJt7TlKpINO3iVbgCvPcRW46m67S/oaAU789v4osXDECV+eJ5mW2bOmIAzeGirzVRKmvU0aH58b54hfOymmnz7rJJGMFRgbQgtZCQ0V34zBoOzzgouXHEfhrWNaQ4R1jp0G7xjM4pVvZxBVwrEAoqiEXGvhw0w+Q4oXoq6MCkqIFhYko+sn+/6hkVpAw4RJeE6rFsJ9yvmYomVDfNmfV38WA29AY5jEP1Msas3aE=
-  file: GitAdroidStudioDemo/build/outputs/apk/yourapp*release*.apk
+  file: GitAdroidStudioDemo1/build/outputs/apk/yourapp*release*.apk
   file_glob: "true"
   skip_cleanup: true
   on:
