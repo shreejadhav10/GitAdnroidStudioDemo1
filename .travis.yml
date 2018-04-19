@@ -13,7 +13,7 @@ android:
     - extra-android-m2repository
     - addon-google_apis-google-26
     - sys-img-x86-google_apis-26
-    - sys-img-armeabi-v7a-android-17
+    - sys-img-armeabi-v7a-android-22
 env:
  global:
  - ANDROID_API=26
