@@ -6,7 +6,7 @@ android:
     - platform-tools
     - tools
     - build-tools-$ANDROID_BUILD_TOOLS
-    - android-$EMULATOR_API
+    - android-$ANDROID_API
     - android-$EMULATOR_API
     - extra-google-google_play_services
     - extra-google-m2repository
