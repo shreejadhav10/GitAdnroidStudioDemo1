@@ -47,7 +47,7 @@ deploy:
   provider: releases
   api_key:
     secure: JU76kuFFzMqVcBckyPc4eD32U0Wa1JVMMJUO7tay+HTnOPvauwSzaiDaVzIRtct829dbXmnGIu68D+CIyHkagFQPDy4yh5AKn2ZtTmE6PeVHYaWK7YmHnawkR4ZPMboaJrNaQu8qFwW+Meup8cgGECBXhy2qGhyqyn7vZQ1qcLN0yqDQOfdE9qm3lcs8tyu7E/xDt8PgfhC8LT4s7t8QxHwzL+gwik4tB4XhH3aISHyfgFToqLYUGZCnkvWrJtWDkwa4KgiU93nkRWLQ+qIy7TVwYWDUWUn2UQylNNtcjX+i7qOa2/IG19GNAhnewx0UrfJ4fZxMfpA0ngFxbYW5FXHsmsl/PgnH/lvWWuqGbhk+O1wQcWV+8m6cYzJ/ypwOfVwj1DNm3pLDydlwVa10BJ2SK7AIQACnTFH24/cNV5pLNLXtmn7+tpmvrM6RHNOLf6NsyWYA0YZuJNBdr2i9yBuAGYbF9PkpUzL8uuQUy8vzFuHKBNk1vSzRjVk2oENLWE6zjFbs2q3RpUTTMOt69xIGEp8k65UTh43plE/p/rVU6YHL45VRtjXsseU9yGA7eTMMJwDMuReyX1V7Vm4HySFtzYCpVYiFzFxqlxCDzvt7ycPbV0QbSUBedhjZIotD/OUEGDA9bb4l9/L//d82FRoV7hrfq19YbZN8ZHJBQN4=
-  file: app/build/outputs/apk/yourapp*release*.apk
+  file: app/build/outputs/apk/release/TravisAndroid.apk
   file_glob: 'true'
   skip_cleanup: true
   on:
