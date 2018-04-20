@@ -60,4 +60,4 @@ before_deploy:
 - jarsigner -verify app-release-unsigned.apk
 - ${ANDROID_HOME}/build-tools/${ANDROID_BUILD_TOOLS}/zipalign -v 4 app-release-unsigned.apk TravisAndroid.apk
 - cd -
-- scripts/tag.sh
+- tag.sh
