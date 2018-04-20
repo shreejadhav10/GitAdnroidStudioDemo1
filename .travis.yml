@@ -20,16 +20,17 @@ env:
   - EMULATOR_API=22
   - ANDROID_BUILD_TOOLS=26.0.2
   - ADB_INSTALL_TIMEOUT=5
+  - secure: 2cAczl1VSJJkTwS5Xr2QOeLRdAAuPMJ84+OlJwIevx7/2vTF0/U/Vb6rv2dMryftcc9IlGNv4vFy9XEsj6ZRCrXqxTv2GH8Wmqzp2KesoticCEaNGfzzcUXEBQhyhXcb90aZYH5hVfmk46mjI3xNeE5NdyjD6Z/5RPKy3JBBnUXD7CsW7xQEgW1za/FYt9yjDeRrX8aD70gerfSHcSVajPsFnBNAuKowN2dXC+eO5eUXDQKMWxQq77LepKhXFJsrgKPQ6U2X0CHQtyvgxCWWvzEO3D2LAQ7VEbhbDcsPxJdwt9In/mXE5cU09PHh66B0m8YG0XfB3ZtgMnesAJLdvMOchVjR7Q2wrQAkEv40S1KHMS/Ac9ahwvdJjRChACPIcfoxn78aMuOuA1PMkS0ZV5lWhSPoD/3QeJHT9p2Mhj0UudlgGeSCZOWp+IkNh/Uiow65SOcuhKnffl8aeoC4xNF9VhOJzA160UEVnnDvDU91KpF9FZmAEI3OorB5+2dR7vm1KNknlbr1vRCUfoJ3DwPuTJRtHH8PLfuPdjhw0mnEeZ7tdN7fU00sB/Baz4x0rDI4NqxbB27XX3i0JIDeWuMXJ7u8PwvA956czPkRG+l77D5cy7Cqotxn1uzcCuGbARAye3qaP5DEs/A4p9ZNAF4OywA95Jkir4SrF3A1q6o=
+  - secure: je9/QfiKKj+53Eh6siv7Cj4obzMBQAcJrduF8OIB7FN08T+Xq41UjuH0siZ4dG+P7DCsTHBdG0S3JsOv0ug64ed4+jQaToaUnc89d3C/UzvOzJI0GeoYgU8sK2JsJTwzOeJvMUOHoxeMcZBuc5mu48z5VtSS0bxhHttkM9EzRc9HyVH6lyIXkFBKelHTgnKnMLCexNF0CztXlInnNMqJohnJ0k/7Y3i3TaQoXBcCoezGkvi3tGe0H5CbODFmw9GCGz55cFVA7hoZu4FDuEQXIUPOGIZMH0TVz+g29p774tb+0Yvh1E/sBKXHmq2O9Nk4s+M3wi/OWom9f6WcWIzwUTOjyASVnfa/Qaf0yDuJUU35w7/0194khRFhShTCE73n+bGnDJH/UbraPrnsfQXOob3UfCJW6UnTnj0JESN9PbvNqCh4WSJWZK1wroAwltLD3oOPKi7BnzB9UiE06AIgd/Wjwy0aKkVtkSvo5HcRpQfss1rikd9uL5Y5XaRZHTXEEsqngonS2PoVLdiNGxWBQLNXN4a/KYJr7Y+hed6o45h98cUw6wjh8yVJTXstb398bOfBtRjjxeXucFRd6khz7yk49sUj2jj7mG+vnDqBHGACJX7D08UVlVuR0vixy7XayXnVzmGyGu0tLKrV33yD9J/V+mvubmGX9XCDcuGWjqA=
+  - secure: PrWasy+qlJx+DWy1+NVVLK+a9NgwQqW7c1mlstQI5uUVQA0lGkLIHnT/+VbNvUgwbrH/h0c8W8DzE+0WXH+mn/Ntr9jfuOehUhPQp9cmtSHazECtGJxbcplJ94IUTb/VPqV7iKBgGxxnk5yx6VQXjHCRUE3j2g+NTz1WPn2gSsZO7lT+9Cyu5gcwKQ6JKcf1fsvvB9iVsK91Jll5JyUmU4mHB/qcuVFjK1mbNqooLYpWjQlOM4dnF03a7QNfXpl5MLeCh8a1fME60Pr9y4madwVm4bKa2anIVQUm7C1ZWCuzlhDKttiqH3TT+3iDkV5pd7BkLkgthBwnbTU7+NM8JZIMiFKC198NMeR/xVO7HwEr5JLLXNnMeglnkP7PU+8Oeekf8egMKXdfiHoq1qKw6zL3b4a3r6NEbN4mZg+nHlBT8bkIm3gZ+YkgR2P3miNJH9SAjvbXBZRp7VwhupzmIW3yIOqPLsk7qZY3H1c3dWlMMcyY0xxQcmZFEf5O3nYqNMeXilvevBYWOkVnFCmty8zpV7R5AOOMr5fkVWwBO4fHzFuGMzKqnLHwXT7C/Fydlth6E1s996qp84AxgYitlAEda+3aKKodqZBqQ6LW8WiVgDiF95QheS4Z8CPHfQhmGOEF6Dfvew/Uq4AkvQH/ZyAIMvq3oR5GlqLrhVPWc6Y=
 before_cache:
-  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -rf $HOME/.gradle/caches/*/plugin-resolution/
-
+- rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+- rm -rf $HOME/.gradle/caches/*/plugin-resolution/
 cache:
   directories:
-  - $HOME/.gradle/caches/
-  - $HOME/.gradle/wrapper/
-  - $HOME/.android/build-cache
-
+  - "$HOME/.gradle/caches/"
+  - "$HOME/.gradle/wrapper/"
+  - "$HOME/.android/build-cache"
 licenses:
 - android-sdk-preview-license-.+
 - android-sdk-license-.+
@@ -45,12 +46,19 @@ before_script:
 deploy:
   provider: releases
   api_key:
-    secure: V35/bNAxahticsmJ30c4W1wHmUHs0dbPhd8qbhkbLE79MeV0qtJ3LLsRKWU8SinKTB0DYcWdc4Hq2ha2i0rHHNAWP38JdwBGTsKRxEcXPQt+lKobsoopg0N4OqpMO6ltlGphHIu9xQRd7IAdxP04At+gIzXh8GC7uml9PNJWptUk0FNPk3k1SwJoMWowwqEcK8DnvgbCTNwEDwF6ieoX2XUyFTd0aIJ5ry0D1BAYLSyDnH4xR1kwFOBRDLhbzCYLqfuBKCrXXSur/ZJk0ZTyI37KP2nDVuH27O91Dik+nepR0UcTUqC/2KneOaP9kfWkXBxeHyKXgo0jaxZ94Fiw1m0aoJIpvh1GnC2J0UgAQ9Jq7n74sBAJbXEhdSya/u6ezP7wV4adgimMUO4pdjh7Pft820Y37ul70PNQ024qA3euyFQ1Btkmq07SwE5qriB5M6CBM8ji7r5U9PVyGwD4mEz92oWcQb673hEqlwh0x97uKWgkFv+fVUFD58W+kVM9myi9pUo++hZ8ApaslMaUzHwHh9gnOvNec4xqtw8BC8kZBz5/1T/BFk525JKaH/l0Rg7u/ibWEScUQy6wgNPC1c7D1Tg8zp9gR61dz207hwQo0uMYebhbvVb5+y5R46mvvGFT42zx+wkbTjGsdHitCH12h5Pyv6r7OXgvEpAI55s=
+    secure: JU76kuFFzMqVcBckyPc4eD32U0Wa1JVMMJUO7tay+HTnOPvauwSzaiDaVzIRtct829dbXmnGIu68D+CIyHkagFQPDy4yh5AKn2ZtTmE6PeVHYaWK7YmHnawkR4ZPMboaJrNaQu8qFwW+Meup8cgGECBXhy2qGhyqyn7vZQ1qcLN0yqDQOfdE9qm3lcs8tyu7E/xDt8PgfhC8LT4s7t8QxHwzL+gwik4tB4XhH3aISHyfgFToqLYUGZCnkvWrJtWDkwa4KgiU93nkRWLQ+qIy7TVwYWDUWUn2UQylNNtcjX+i7qOa2/IG19GNAhnewx0UrfJ4fZxMfpA0ngFxbYW5FXHsmsl/PgnH/lvWWuqGbhk+O1wQcWV+8m6cYzJ/ypwOfVwj1DNm3pLDydlwVa10BJ2SK7AIQACnTFH24/cNV5pLNLXtmn7+tpmvrM6RHNOLf6NsyWYA0YZuJNBdr2i9yBuAGYbF9PkpUzL8uuQUy8vzFuHKBNk1vSzRjVk2oENLWE6zjFbs2q3RpUTTMOt69xIGEp8k65UTh43plE/p/rVU6YHL45VRtjXsseU9yGA7eTMMJwDMuReyX1V7Vm4HySFtzYCpVYiFzFxqlxCDzvt7ycPbV0QbSUBedhjZIotD/OUEGDA9bb4l9/L//d82FRoV7hrfq19YbZN8ZHJBQN4=
   file: app/build/outputs/apk/yourapp*release*.apk
-  file_glob: "true"
+  file_glob: 'true'
   skip_cleanup: true
   on:
     branch: master
     repo: shreejadhav10/GitAdroidStudioDemo1
-after_success:
-- sh set_tags.sh
+
+dd:
+- openssl aes-256-cbc -K $encrypted_0f49b6ae5660_key -iv $encrypted_0f49b6ae5660_iv -in keystore.jks.enc -out keystore.jks -d
+- cd app/build/outputs/apk/release
+-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ${TRAVIS_BUILD_DIR}/keystore.jks -storepass $storepass -keypass $keypass app-release-unsigned.apk key0
+- jarsigner -verify app-release-unsigned.apk
+- "${ANDROID_HOME}/build-tools/${ANDROID_BUILD_TOOLS}/zipalign -v 4 app-release-unsigned.apk TravisAndroid.apk"
+- cd -
+- scripts/tag.sh
