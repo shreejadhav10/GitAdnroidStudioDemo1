@@ -50,6 +50,7 @@ deploy:
   file: app/build/outputs/apk/release/TravisAndroid.apk
   file_glob: 'true'
   skip_cleanup: true
+  
   on:
     branch: master
 
